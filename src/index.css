@@ -1,0 +1,9 @@
+ :root {
+  background-color: rgb(240,240,240);
+}
+#root {
+  background-color: rgb(240,240,240);
+}
+::-webkit-scrollbar{
+  display: none;
+}
