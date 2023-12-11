@@ -26,10 +26,10 @@ const combine:Reducer=combineReducers({
     todos:slice,
 })
 const persist=persistReducer(config,combine)
- interface store {
+ interface Store {
     todos:state
  }
-export const getItem = (store:store) => store.todos.items;
+export const getItem = (store:Store) => store.todos.items;
 
 const store=configureStore({
     reducer:persist
